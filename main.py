@@ -17,12 +17,12 @@ st.title("Suporte Técnico B2B SPI Dados")
 user_input = st.text_input("Nome de usuário")
 password_input = st.text_input("Senha", type="password")
 
-# Verifica as credenciais quando o botão de login é pressionado
-if st.link_button("Login","https://material-apoio-campo-b2b-spi.streamlit.app/"):
+# Verifica as credenciais quando o botão de login é pressionadost.link_button("Bem-vindo","https://material-apoio-campo-b2b-spi.streamlit.app/")
+if st.button("Login"):
     if user_input == username and password_input == senha_correta:
-        st.success("Login bem-sucedido!")
-        st.write("Bem-vindo, " + username)
+        st.success("Bem Vindo, "  + username)
+        st.link_button("Click para Acessar","https://material-apoio-campo-b2b-spi.streamlit.app/")
+        
     else:
         st.error("Credenciais inválidas. Tente novamente.")
         # Adicione aqui o código para a parte protegida da página após o login
-        
