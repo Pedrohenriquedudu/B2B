@@ -7,6 +7,20 @@ import time
 # Define as credenciais de login
 username = "GTD_B2B"
 senha_correta = "tecdados"
+username = "Pedro Martins"
+senha_correta = "Suporte"
+username = "Sergio Kohara"
+senha_correta = "Coordenador"
+username = "Marcio Barreira"
+senha_correta = "Gestor Campo"
+username = "Rogerio Toledo"
+senha_correta = "Gestor Campo"
+username = "Sergio Alves"
+senha_correta = "Gestor Campo"
+username = "Marcio Souza"
+senha_correta = "Consultor B2B"
+username = "Genildo Ferreira"
+senha_correta = "Coordenador"
 
 # Configura o título da página
 st.title("Suporte Técnico B2B SPI Dados")
