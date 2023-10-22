@@ -21,6 +21,7 @@ password_input = st.text_input("Senha", type="password")
 if st.button("Login"):
     if user_input == username and password_input == senha_correta:
         st.success("Bem Vindo, "  + username)
+        st.redirect("https://material-apoio-campo-b2b-spi.streamlit.app/")
         st.link_button("Click para Acessar","https://material-apoio-campo-b2b-spi.streamlit.app/")
         
     else:
