@@ -36,12 +36,11 @@ Firmware e IOS: :point_down:
     st.link_button("Repositórios IOS","https://drive.google.com/drive/folders/1lU9-1yEFGuEQIt5FtHuAM9VQjJXhhERY?usp=drive_link")
 
 # Confwith st.sidebar:
-with st.sidebar:
+    with st.sidebar:
     
-    st.write("Materiais para Downloads")
-
-    with st.spinner("Loading..."):
-        time.sleep(3)
+        st.write("Materiais para Downloads")
+        with st.spinner("Loading..."):
+            time.sleep(3)
         st.link_button("Downloads", "https://drive.google.com/drive/folders/1dvHJka8s_3Pdtzif6ZLEgrG4pWBB46qn?usp=sharing")
 
 # Verifique o estado de autenticação
