@@ -8,7 +8,7 @@ credenciais = {
 
 # Função de login
 def login():
-    st.subheader("Suporte Tecnico SPI Dados B2B")
+    st.subheader("Suporte Tecnico SPI Dados B2B :book:")
     username = st.text_input("Nome de usuário")
     senha = st.text_input("Senha", type="password")
 
