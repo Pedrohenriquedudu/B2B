@@ -38,7 +38,7 @@ Firmware e IOS: :point_down:
 # Confwith st.sidebar:
     with st.sidebar:
     
-        st.write("Materiais para Downloads")
+        st.write("Materiais para Downloads :book:")
         with st.spinner("Loading..."):
             time.sleep(3)
         st.link_button("Downloads", "https://drive.google.com/drive/folders/1dvHJka8s_3Pdtzif6ZLEgrG4pWBB46qn?usp=sharing")
